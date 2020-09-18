@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On Direct Learning, Reinforcement, and the Interactivist Theory of Representation"
+title: "direct learning critique"
 date: 2020-09-18
 ---
 
