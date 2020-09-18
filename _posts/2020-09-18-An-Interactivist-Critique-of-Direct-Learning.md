@@ -7,11 +7,11 @@ date: 2020-09-18
 They assume that the quantities we are capable of recording using our
 measurement apparatuses (velocity, angle, etc.) may be combined together into
 some other higher order variable which is a function of these variables. For
-example, suppose I have velocity v, angle a, and luminance L, and that these are
-combined to define som higher order variable G which is a function of these
+example, suppose I have velocity \(v\), angle \(\alpha\), and luminance \(l\), and that these are
+combined to define some higher order variable \(G\) which is a function of these
 variables
 
-$$G = g(v, a, L)$$
+$$G = g(v, \alpha, l)$$
 
 They stress, however, that we should not fall into elementarism (the idea that to
 detect this higher order compound variable we must first detect the individual
@@ -26,8 +26,8 @@ those component variables?
 
 Letʼs consider a well studied variable, tau, which is considered to specify time to
 contact. Tau is a ratio, and can be equivalently defined by the ratio of object
-distance ($Z$) to velocity ($V$) or the ratio of rate of change of object visual angle
-($\dot{O} = dO/dt$) to the visual angle itself ($O$)
+distance (\(Z\)) to velocity ($V$) or the ratio of rate of change of object visual angle
+(\(\dot{O} = dO/dt\)) to the visual angle itself (\(O\))
 
 $$\tau = Z/V = \frac{\dot{O}}{O}$$
 
@@ -36,11 +36,11 @@ good evidence now for neurons in invertebrate lobula that are sensitive to
 something like tau, though indirectly via a balance of excitatory and inhibitory
 inputs:
 
-[Escape behavior and neuronal responses to looming stimuli in the crab](https://jeb.biologists.org/content/210/5/865)
+- [Escape behavior and neuronal responses to looming stimuli in the crab](https://jeb.biologists.org/content/210/5/865)
 
-[Computation of object approach by a system of visual motion-sensitiveneurons in the crab](https://journals.physiology.org/doi/pdf/10.1152/jn.00921.2013)
+- [Computation of object approach by a system of visual motion-sensitiveneurons in the crab](https://journals.physiology.org/doi/pdf/10.1152/jn.00921.2013)
 
-[Invariance of angular threshold computation in a wide-field looming-sensitive neuron](https://www.jneurosci.org/content/jneuro/21/1/314.full.pdf)
+- [Invariance of angular threshold computation in a wide-field looming-sensitive neuron](https://www.jneurosci.org/content/jneuro/21/1/314.full.pdf)
 
 This is, I think, what many neuroscientists mean when they use the word 
 _computation_: a neuron or populationʼs activity is correlated with some variable
@@ -50,7 +50,7 @@ Jacobs and Michaels argue against. But notice that although tau is defined in
 terms of a ratio, neural activity sensitive to tau emerges not from a symbolic
 division operation using neural activity sensitive to distance and velocity, but
 merely from a balance of excitation and inhibition and the geometry of the
-invertebrate eye. The “computation” is not symbolic, it is an “as if” computation
+invertebrate eye. The computation is not symbolic, it is an _as if_ computation
 that emerges from the biophysics and morphology of the organism. This
 interpretation offers us a way out of elementarism.
 
