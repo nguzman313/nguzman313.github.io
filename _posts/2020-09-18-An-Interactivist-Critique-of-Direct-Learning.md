@@ -8,7 +8,7 @@ date: 2020-09-18
 They assume that the quantities we are capable of recording using our
 measurement apparatuses (velocity, angle, etc.) may be combined together into
 some other higher order variable which is a function of these variables. For
-example, suppose I have velocity \( v \), angle \( \alpha \), and luminance $l$, and that these are
+example, suppose I have velocity $v$, angle $\alpha$, and luminance $l$, and that these are
 combined to define some higher order variable $G$ which is a function of these
 variables
 
@@ -72,3 +72,53 @@ error with respect to some process relative to and detectable by the organism.
 Though there is sufficient information in the environment for the organism to
 detect when it is in error, the error signal itself cannot be in the environment
 since the error is
+
+The beauty of this paper is that Bickhard not only posits a theory of
+representation and then derives a corresponding theory of learning, he also
+goes in the other direction: given necessary conditions for any theory of
+learning, he shows that a particular kind of theory of representation is required
+for learning, and the interactivist theory is the only one that fits the bill
+
+While all the information that will allow the organism to generate an error signal
+is “out there”, the error signal itself is not and must be internal. Here, I expect
+most eco psych folks will shake their heads and say something like “all internal
+information is merely the isomorphic flow of external ecological information” and
+that ecological information does not get internally transformed beyond
+isomorphisms. I think this is incorrect, since at some point internal states will
+need to be compared to anticipations of those states. I donʼt see any way
+around this comparison operation.
+
+But how do we learn from internal states then? Is reinforcement learning (RL) a
+good model of learning from internal and external states? At some functional
+level, yes, but elsewhere Bickhard has expressed doubts about the explanatory
+potential of RL if we are committed to naturalism, namely: where does the task
+specific reward function come from? The standard reply is usually to pass the
+buck to evolution and assume that reward functions get built into the organism
+
+over the course of phylogenetic time. Turns out we can get away with not pre-
+defining a reward function or having one built in by evolution. To see how this is
+
+possible, letʼs take a look at this paper by Sergey Levine:
+
+[Visual Reinforcement Learning with Imagined Goals](https://papers.nips.cc/paper/8132-visual-reinforcement-learning-with-
+imagined-goals.pdf)
+
+This paper does a couple things:
+
+1. Realizing that raw pixels donʼt provide meaningful error signals, they first
+   use a variational autoencoder (VAE) to transform those images to a space
+   where distances between images are more useful.
+3. They use these VAEs to generate “imagined goals” which are basically
+   internal states that the robots can compare their actual end states to in
+   order to generate an error signal for learning following a sequence of
+   actions.
+
+Here, any embodied cognition or ecological psychology folks will groan, faced
+with yet another instance of the information processing view of the mind, but
+donʼt fear. Organisms donʼt need VAEs in their brains because they have access
+to ecological information! If organisms could only detect raw images, then they
+probably would need something like a VAE in their brain in order to obtain better
+learning signals. But thankfully, organisms can detect far more than just raw
+pixels: they can directly detect intricate patterns of optic flow and other ambient
+energy arrays which are useful for guiding behavior during particular tasks (the
+ecological information specifying affordances).
