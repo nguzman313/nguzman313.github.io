@@ -7,7 +7,7 @@ date: 2020-09-18
 They assume that the quantities we are capable of recording using our
 measurement apparatuses (velocity, angle, etc.) may be combined together into
 some other higher order variable which is a function of these variables. For
-example, suppose I have velocity $v$, angle $\alpha$, and luminance $l$, and that these are
+example, suppose I have velocity \( v \), angle \( \alpha \), and luminance $l$, and that these are
 combined to define some higher order variable $G$ which is a function of these
 variables
 
