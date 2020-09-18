@@ -56,49 +56,50 @@ that emerges from the biophysics and morphology of the organism. This
 interpretation offers us a way out of elementarism.
 
 There is one major problem with Jacobs and Michaels approach: despite their
-claim that no loans of intelligence are implied by their main premise, there is in
+claim that no loans of intelligence (see [this](https://www.sciencedirect.com/science/article/abs/pii/0010027781900639) paper by Michael Turvey for an explanation of this term) are implied by their main premise, there is in
 fact an infinite regress of homunculi hiding in their theory. How does the
 organism come to be able to detect the information for learning? Is there, as
-Jacobs and Michaels refer to it, an “education of attention” that gives the
-organism the ability to detect the information for learning? This would be
-referred to in the machine learning community as “learning to learn”. But then
-does the organism learn to learn to learn? And then learn to learn to learn to
-learn? And so on ad infinitum. What is the base or foundation for learning that
+Jacobs and Michaels refer to it, an _education of attention_ that gives the
+organism the ability to attend to the information for learning? This is related to a problem 
+referred to in the machine learning community as _learning to learn_. But then
+does the organism _learn to learn to learn_? And then _learn to learn to learn to
+learn_? And so on _ad infinitum_. What is the base or foundation for learning that
 allows us to cut off this infinite chain of learners? And you canʼt just pass the
-buck to evolution. You need an explanation. The key here is that by externalizing
+buck to evolution. You need a mechanistic explanation at the timescale of behavior. The key here is that by externalizing
 the error signal outside of the organism, Jacobs and Michaels have not solved
-the problem of normativity. If an organismʼs actions are in error, they must be in
+the normative problem inherent to learning. If an organismʼs actions are in error, they must be in
 error with respect to some process relative to and detectable by the organism.
 Though there is sufficient information in the environment for the organism to
-detect when it is in error, the error signal itself cannot be in the environment
-since the error is
+detect when it is in error, the error signal itself cannot be in the environment.
+
+We can gain some ingsight into why this must be the case by reading my favorite paper
+from Mark Bickhard, outlining the interactivist theory of representation and learning:
+
+[Toplogies of Learning and Development](https://pdfs.semanticscholar.org/dd40/e5233a368e2c1b9a86a48dcec85454e0a3f8.pdf?_ga=2.217017044.318077330.1600460879-502503843.1588272174)
 
 The beauty of this paper is that Bickhard not only posits a theory of
 representation and then derives a corresponding theory of learning, he also
-goes in the other direction: given necessary conditions for any theory of
+goes in the other direction: given necessary conditions for **any** theory of
 learning, he shows that a particular kind of theory of representation is required
-for learning, and the interactivist theory is the only one that fits the bill
+for learning, and the interactivist theory is the only one that fits the bill.
 
 While all the information that will allow the organism to generate an error signal
 is “out there”, the error signal itself is not and must be internal. Here, I expect
-most eco psych folks will shake their heads and say something like “all internal
+most ecological psychology folks will shake their heads and say something like “All internal
 information is merely the isomorphic flow of external ecological information” and
-that ecological information does not get internally transformed beyond
-isomorphisms. I think this is incorrect, since at some point internal states will
-need to be compared to anticipations of those states. I donʼt see any way
-around this comparison operation.
+that ecological information does not get internally transformed beyond these
+isomorphisms. While I think this is largely correct, at some point internal states will
+need to be compared to anticipations of those states, and I think any comparison operation will constitute a transformation beyond isomorphism. I donʼt see any way around this comparison operation if learning is to take place.
 
 But how do we learn from internal states then? Is reinforcement learning (RL) a
 good model of learning from internal and external states? At some functional
 level, yes, but elsewhere Bickhard has expressed doubts about the explanatory
 potential of RL if we are committed to naturalism, namely: where does the task
 specific reward function come from? The standard reply is usually to pass the
-buck to evolution and assume that reward functions get built into the organism
-
+buck to evolution and assume that reward functions get built into the organism 
 over the course of phylogenetic time. Turns out we can get away with not pre-
 defining a reward function or having one built in by evolution. To see how this is
-
-possible, letʼs take a look at this paper by Sergey Levine:
+possible, letʼs take a look at this paper from Sergey Levine's lab:
 
 [Visual Reinforcement Learning with Imagined Goals](https://papers.nips.cc/paper/8132-visual-reinforcement-learning-with-
 imagined-goals.pdf)
@@ -108,17 +109,20 @@ This paper does a couple things:
 1. Realizing that raw pixels donʼt provide meaningful error signals, they first
    use a variational autoencoder (VAE) to transform those images to a space
    where distances between images are more useful.
-3. They use these VAEs to generate “imagined goals” which are basically
+   
+2. They use these VAEs to generate “imagined goals” which are basically
    internal states that the robots can compare their actual end states to in
    order to generate an error signal for learning following a sequence of
    actions.
 
 Here, any embodied cognition or ecological psychology folks will groan, faced
-with yet another instance of the information processing view of the mind, but
-donʼt fear. Organisms donʼt need VAEs in their brains because they have access
-to ecological information! If organisms could only detect raw images, then they
+with yet another instance of the information processing view of the mind in the form of 
+artificial neural networks. But donʼt fear; even though we haven't figured out how to endow 
+robots with the right sensory arrays to directly detect ecological information (and it's probably
+easier to just use neural nets), living organisms donʼt need VAEs in their brains because they _do_ have direct access
+to ecological information! If organisms could only detect raw pixels, then they
 probably would need something like a VAE in their brain in order to obtain better
 learning signals. But thankfully, organisms can detect far more than just raw
-pixels: they can directly detect intricate patterns of optic flow and other ambient
+pixels: they can directly detect intricate patterns in ambient
 energy arrays which are useful for guiding behavior during particular tasks (the
 ecological information specifying affordances).
