@@ -1,5 +1,6 @@
 ---
 layout: post
+mathjax: true
 title: "An Interactivist Critique of Direct Learning"
 date: 2020-09-18
 ---
