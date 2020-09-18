@@ -1,0 +1,26 @@
+blockquote {
+  text-indent: -0.45em;
+  border-left: 2px solid red;
+}
+@supports ( hanging-punctuation: first) {
+  blockquote {
+    text-indent: 0;
+    hanging-punctuation: first;
+  }
+}
+
+blockquote::before {
+    content: open-quote;
+}
+blockquote::after {
+    content: close-quote;
+}
+blockquote {
+    quotes: "“" "”" "‘" "’";
+}
+body {
+  max-width: 20em;
+  margin: 1em;
+  font: 1.4rem/1.4 Georgia, serif;
+}
+
