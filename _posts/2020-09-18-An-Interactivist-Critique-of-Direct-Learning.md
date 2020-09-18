@@ -7,8 +7,8 @@ date: 2020-09-18
 They assume that the quantities we are capable of recording using our
 measurement apparatuses (velocity, angle, etc.) may be combined together into
 some other higher order variable which is a function of these variables. For
-example, suppose I have velocity \(v\), angle \(\alpha\), and luminance \(l\), and that these are
-combined to define some higher order variable \(G\) which is a function of these
+example, suppose I have velocity $v$, angle $\alpha$, and luminance $l$, and that these are
+combined to define some higher order variable $G$ which is a function of these
 variables
 
 $$G = g(v, \alpha, l)$$
@@ -26,12 +26,12 @@ those component variables?
 
 Letʼs consider a well studied variable, tau, which is considered to specify time to
 contact. Tau is a ratio, and can be equivalently defined by the ratio of object
-distance (\(Z\)) to velocity ($V$) or the ratio of rate of change of object visual angle
-(\(\dot{O} = dO/dt\)) to the visual angle itself (\(O\))
+distance ($Z$) to velocity ($V$) or the ratio of rate of change of object visual angle
+($\dot{O} = dO/dt$) to the visual angle itself ($O$)
 
 $$\tau = Z/V = \frac{\dot{O}}{O}$$
 
-It would seem that you could not detect \(\tau\) without computing a ratio. There is
+It would seem that you could not detect $\tau$ without computing a ratio. There is
 good evidence now for neurons in invertebrate lobula that are sensitive to
 something like tau, though indirectly via a balance of excitatory and inhibitory
 inputs:
