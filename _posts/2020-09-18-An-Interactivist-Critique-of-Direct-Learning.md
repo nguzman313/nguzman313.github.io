@@ -31,7 +31,7 @@ distance (\(Z\)) to velocity ($V$) or the ratio of rate of change of object visu
 
 $$\tau = Z/V = \frac{\dot{O}}{O}$$
 
-It would seem that you could not detect $\tau$ without computing a ratio. There is
+It would seem that you could not detect \(\tau\) without computing a ratio. There is
 good evidence now for neurons in invertebrate lobula that are sensitive to
 something like tau, though indirectly via a balance of excitatory and inhibitory
 inputs:
