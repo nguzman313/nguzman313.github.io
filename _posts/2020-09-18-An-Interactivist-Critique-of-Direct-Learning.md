@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "direct learning critique"
+title: "An Interactivist Critique of Direct Learning"
 date: 2020-09-18
 ---
 
