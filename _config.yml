@@ -14,6 +14,8 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 menu:
+  - title: Home
+    url: /
   - title: Blog
     url: /blog/
   - title: About
