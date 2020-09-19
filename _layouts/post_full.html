@@ -17,19 +17,12 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.name }}</a></h1>
-        
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
         
       </header>
       
-      <section style="text-align:justified;">
+      <p style="text-align:justified;">
       {{ content }}
-      </section>
+      </p>
 
       <footer>
         {% if site.github.is_project_page %}
