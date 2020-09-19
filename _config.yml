@@ -13,3 +13,8 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-remote-theme
+menu:
+  - title: Blog
+    url: /blog/
+  - title: About
+    url: /about/
