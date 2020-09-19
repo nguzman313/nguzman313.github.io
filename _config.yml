@@ -1,4 +1,5 @@
-name: Noah Guzman
+name: Noah Guzmán
+author: Noah Guzmán
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-minimal
