@@ -1,5 +1,12 @@
 name: Noah Guzmán
-author: Noah Guzmán
+author:
+  name: Noah Guzmán
+  email: nguzman@caltech.edu
+  social:
+    email: nguzman@caltech.edu
+    github:  nguzman313
+    twitter: NoahGuzman14
+
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 #theme: jekyll-theme-minimal
