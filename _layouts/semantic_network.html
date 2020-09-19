@@ -8,6 +8,7 @@
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" type="text/css" href="/css/semantic_network.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -17,32 +18,9 @@
     
   </head>
   <body>
-    <style type="text/css">
-      @font-face {
-        font-family: "Computer Modern";
-        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
-      }
-      @font-face {
-        font-family: "Computer Modern";
-        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
-        font-weight: bold;
-      }
-      @font-face {
-        font-family: "Computer Modern";
-        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
-        font-style: italic, oblique;
-      }
-      @font-face {
-        font-family: "Computer Modern";
-        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
-        font-weight: bold;
-        font-style: italic, oblique;
-      }
-    </style>
     
     <div class="wrapper">
       <header>
-        <h1 align="center"> Foundations of Cognition and Behavior </h1>
       </header>
       <section>
 
@@ -77,6 +55,20 @@
             <li><a href="/foundations_cog_sci">Foundations of Cognitive Science</a></li>
         </ul>
     </nav>
+    
+    <h1 align="center"> Foundations of Cognition and Behavior </h1>
+    <div style="width: 100%; display: table;">
+      <div style="display: table-row; height: 500px;">
+          <div id="network"; class="network">
+          </div>
+          <div id="text"; class="textblock"> 
+          Click on a node to learn more about a particular subject 
+          </div>
+      </div>
+    </div>
+
+    <script src='https://visjs.github.io/vis-network/standalone/umd/vis-network.min.js'></script>
+    <script scr="/foundations_cog_sci/semantic_network.js"></script>
     
   </body>
 </html>
