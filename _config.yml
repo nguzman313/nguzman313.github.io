@@ -2,8 +2,9 @@ name: Noah Guzmán
 author: Noah Guzmán
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
 #remote_theme: mmistakes/minimal-mistakes
+remote_theme: hydecorp/hydejack@v9.0.4
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
