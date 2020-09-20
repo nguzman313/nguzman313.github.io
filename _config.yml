@@ -31,3 +31,4 @@ paginate:      10
 paginate_path: /blog/:num/ #!!
 accent_image: none
 accent_color: rgb(53,56,54)
+sidebar_title: Noah Guzmán
