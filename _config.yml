@@ -34,9 +34,9 @@ accent_color: rgb(53,56,54)
 sidebar_title: Noah Guzmán
 short_title: Noah Guzmán
 title: Noah Guzmán
-logo:
-  srcset:
-    1920w: /assets/your-image.jpg
-    960w: /assets/your-image@0,5x.jpg
-    480w: /assets/your-image@0,25x.jpg
+logo: /assets/your-image@0,5x.jpg
+#  srcset:
+#    1920w: /assets/your-image.jpg
+#    960w: /assets/your-image@0,5x.jpg
+#    480w: /assets/your-image@0,25x.jpg
 
