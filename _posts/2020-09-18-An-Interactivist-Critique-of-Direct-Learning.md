@@ -5,6 +5,8 @@ title: "An Interactivist Critique of Direct Learning"
 date: 2020-09-18
 ---
 
+
+
 They assume that the quantities we are capable of recording using our
 measurement apparatuses (velocity, angle, etc.) may be combined together into
 some other higher order variable which is a function of these variables. For
@@ -42,7 +44,7 @@ $$
 
 It would seem that you could not detect $$\tau$$ without computing a ratio. There is
 good evidence now for neurons in invertebrate lobula that are sensitive to
-something like $$\tau$$, though indirectly via a balance of excitatory and inhibitory
+something like $$\tau$$, via a balance of excitatory and inhibitory
 inputs:
 
 - [Escape behavior and neuronal responses to looming stimuli in the crab](https://jeb.biologists.org/content/210/5/865)
@@ -99,8 +101,8 @@ that ecological information does not get internally transformed beyond these
 isomorphisms. While I think this is largely correct, at some point internal states will
 need to be compared to anticipations of those states, and I think any comparison operation will constitute a transformation beyond isomorphism. I donʼt see any way around this comparison operation if learning is to take place.
 
-But how do we learn from internal states then? Is reinforcement learning (RL) a
-good model of learning from internal and external states? At some functional
+But how do we learn from internal states then? One commonly used framework for
+modeling learning is reinforcement learning (RL). Is RL a good model of learning? At some functional
 level, yes, but elsewhere Bickhard has expressed doubts about the explanatory
 potential of RL if we are committed to naturalism, namely: where does the task
 specific reward function come from? The standard reply is usually to pass the
