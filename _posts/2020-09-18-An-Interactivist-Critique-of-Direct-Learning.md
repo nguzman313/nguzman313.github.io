@@ -111,8 +111,7 @@ over the course of phylogenetic time. Turns out we can get away with not pre-
 defining a reward function or having one built in by evolution. To see how this is
 possible, letʼs take a look at this paper from Sergey Levine's lab:
 
-[Visual Reinforcement Learning with Imagined Goals](https://papers.nips.cc/paper/8132-visual-reinforcement-learning-with-
-imagined-goals.pdf)
+[Visual Reinforcement Learning with Imagined Goals](https://arxiv.org/pdf/1807.04742.pdf)
 
 This paper does a couple things:
 
