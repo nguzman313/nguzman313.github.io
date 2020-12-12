@@ -11,6 +11,8 @@ date: 2020-12-1
 
 ## Learning and Development
 
+## Edelman's Neural Darwinism
+
 
 # Anderson's Idea of Neural Search
 
@@ -25,3 +27,6 @@ date: 2020-12-1
 # The Thalamus as a Generator of Intrinsic Variability
 
 ## Stochastic or Directed?
+
+
+# References 
