@@ -32,7 +32,7 @@ date: 2020-12-11
 
 # The (Un)Necessity of Representation and the Problem of *Content For*
 
-The fact is that essentially all debates about the necessity of the concept of representation for explaining adaptive behavior have taken place within an encoding framework. This makes it difficult to apply the arguments from these debates to the interactivist theory of representation. And Bickhard has not helped us since I have been unable to find an argument for why representation is central to explanations of behavior in any of his works; he simply states it as if it were obvious.
+The fact is that essentially all debates about the necessity of the concept of representation for explaining adaptive behavior have taken place within an encoding framework. This makes it difficult to apply the arguments from these debates to the interactivist theory of representation. And Bickhard has not helped us since I have been unable to find an argument for why representation is central to explanations of behavior in any of his works; he simply states it as if it were obvious. Nevertheless, I will review the debates surrounding the necessity of representation and see if I can frame interactivism within these arguments. Then I will review recent complex systems theory accounts of agency and question whether representation remains a necessary explanatory tool in light of these accounts. All theories of representation must address the problem of content, specifically *who that content is for* and the *ontogeny of that content*; I will conclude that interactivism successfully answers the ontogeny question by eliminating observer dependence, but that the question of *content for* does not actually make sense because representational content is not ontologically real (while representations are). However, I will argue that even though representational content can be eliminated in mechanistic explanations, it is necessary for functional explanations of organismal behavior *qua* organism and that these functional explanations can guide and constrain mechanistic explanations.
 
 
 # References
@@ -58,5 +58,8 @@ The fact is that essentially all debates about the necessity of the concept of r
 19. Bickhard, M. H. The interactivist model. Synthese 166, 547–591 (2009).
 20. Bickhard, M. H. Process and Emergence: Normative Function and Representation. in Process Theories: Crossdisciplinary Studies in Dynamic Categories (ed. Seibt, J.) 121–155 (Springer Netherlands, 2003). doi:10.1007/978-94-007-1044-3_6.
 21. Bickhard, M. H. Levels of representationality. Journal of Experimental & Theoretical Artificial Intelligence 10, 179–215 (1998).
-22. Bechtel, W. Investigating neural representations: the tale of place cells. Synthese 193, 1287–1321 (2016).
-23. Allen, C. & Neal, J. Teleological Notions in Biology. in The Stanford Encyclopedia of Philosophy (ed. Zalta, E. N.) (Metaphysics Research Lab, Stanford University, 2020).
+22. Bickhard, M. H. Representational content in humans and machines. Journal of Experimental & Theoretical Artificial Intelligence 5, 285–333 (1993).
+23. Bechtel, W. Investigating neural representations: the tale of place cells. Synthese 193, 1287–1321 (2016).
+24. Allen, C. & Neal, J. Teleological Notions in Biology. in The Stanford Encyclopedia of Philosophy (ed. Zalta, E. N.) (Metaphysics Research Lab, Stanford University, 2020).
+
+
