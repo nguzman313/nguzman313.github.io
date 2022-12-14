@@ -119,6 +119,6 @@ img {
 
 .center-justified {
   text-align: justify;
-  margin: 0 auto;
+  margin: auto;
   max-width: 45em;
 }
