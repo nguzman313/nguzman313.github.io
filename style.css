@@ -102,6 +102,9 @@ body {
  padding: 0 2%;
 }
 
+h1 {text-align: center;}
+
+h2 {text-align: center;}
 
 img {
  max-width: 100%;
