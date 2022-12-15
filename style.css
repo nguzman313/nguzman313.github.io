@@ -113,6 +113,7 @@ h3 {text-align: center;}
 img {
  width: 45em;
  height: auto;
+ max-width: 45em;
  display: block;
  margin: .75em auto;
 }
