@@ -94,8 +94,8 @@
 
 
 body {
- color: #111111;
- background-color: #fffff1;
+ color: #111111 !important;
+ background-color: #fffff1 !important;
  font-family: 'Computer Modern Sans', sans-serif;
  font-size: 1.1em;
  line-height: 1.5em;
@@ -111,7 +111,7 @@ h2 {text-align: center;}
 h3 {text-align: center;}
 
 img {
- max-width: 100%;
+ max-width: 50%;
  display: block;
  margin: .75em auto;
 }
