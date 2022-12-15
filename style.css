@@ -111,9 +111,9 @@ h2 {text-align: center;}
 h3 {text-align: center;}
 
 img {
- width: 10%;
+ width: 20em;
  height: auto;
- max-width: 100%;
+ max-width: 45em;
  display: block;
  margin: .75em auto;
 }
