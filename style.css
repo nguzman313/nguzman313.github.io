@@ -111,7 +111,7 @@ h2 {text-align: center;}
 h3 {text-align: center;}
 
 img {
- width: 90em !important;
+ width: 100px;
  height: auto;
  display: block;
  margin: .75em auto;
