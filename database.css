@@ -1,3 +1,110 @@
+/* Load Computer Modern fonts */
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('CMU_Fonts/Serif/cmunrm.eot');
+	src: url('CMU_Fonts/Serif/cmunrm.eot?#iefix') format('embedded-opentype'),
+		 url('CMU_Fonts/Serif/cmunrm.woff') format('woff'),
+		 url('CMU_Fonts/Serif/cmunrm.ttf') format('truetype'),
+		 url('CMU_Fonts/Serif/cmunrm.svg#cmunrm') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('CMU_Fonts/Serif/cmunbx.eot');
+	src: url('CMU_Fonts/Serif/cmunbx.eot?#iefix') format('embedded-opentype'),
+		 url('CMU_Fonts/Serif/cmunbx.woff') format('woff'),
+		 url('CMU_Fonts/Serif/cmunbx.ttf') format('truetype'),
+		 url('CMU_Fonts/Serif/cmunbx.svg#cmunbx') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('CMU_Fonts/Serif/cmunti.eot');
+	src: url('CMU_Fonts/Serif/cmunti.eot?#iefix') format('embedded-opentype'),
+		 url('CMU_Fonts/Serif/cmunti.woff') format('woff'),
+		 url('CMU_Fonts/Serif/cmunti.ttf') format('truetype'),
+		 url('CMU_Fonts/Serif/cmunti.svg#cmunti') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('CMU_Fonts/Serif/cmunbi.eot');
+	src: url('CMU_Fonts/Serif/cmunbi.eot?#iefix') format('embedded-opentype'),
+		 url('CMU_Fonts/Serif/cmunbi.woff') format('woff'),
+		 url('CMU_Fonts/Serif/cmunbi.ttf') format('truetype'),
+		 url('CMU_Fonts/Serif/cmunbi.svg#cmunbi') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('CMU_Fonts/Sans/cmunss.eot');
+	src: url('CMU_Fonts/Sans/cmunss.eot?#iefix') format('embedded-opentype'),
+		 url('CMU_Fonts/Sans/cmunss.woff') format('woff'),
+		 url('CMU_Fonts/Sans/cmunss.ttf') format('truetype'),
+		 url('CMU_Fonts/Sans/cmunss.svg#cmunss') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('CMU_Fonts/Sans/cmunsx.eot');
+	src: url('CMU_Fonts/Sans/cmunsx.eot?#iefix') format('embedded-opentype'),
+		 url('CMU_Fonts/Sans/cmunsx.woff') format('woff'),
+		 url('CMU_Fonts/Sans/cmunsx.ttf') format('truetype'),
+		 url('CMU_Fonts/Sans/cmunsx.svg#cmunsx') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('CMU_Fonts/Sans/cmunsi.eot');
+	src: url('CMU_Fonts/Sans/cmunsi.eot?#iefix') format('embedded-opentype'),
+		 url('CMU_Fonts/Sans/cmunsi.woff') format('woff'),
+		 url('CMU_Fonts/Sans/cmunsi.ttf') format('truetype'),
+		 url('CMU_Fonts/Sans/cmunsi.svg#cmunsi') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('CMU_Fonts/Sans/cmunso.eot');
+	src: url('CMU_Fonts/Sans/cmunso.eot?#iefix') format('embedded-opentype'),
+		 url('CMU_Fonts/Sans/cmunso.woff') format('woff'),
+		 url('CMU_Fonts/Sans/cmunso.ttf') format('truetype'),
+		 url('CMU_Fonts/Sans/cmunso.svg#cmunso') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Main */
+
+body {
+ color: #111111 !important;
+ background-color: #efefef !important;
+ font-family: 'Computer Modern Sans', sans-serif;
+ line-height: 1.25;
+}
+
+h1 {text-align: center;}
+
 /* Database */
 
 table {
@@ -15,7 +122,7 @@ table caption {
 }
 
 table tr {
-  background-color: #f8f8f8;
+  background-color: #efefef;
   padding: .35em;
 }
 
@@ -78,11 +185,4 @@ table th {
   table td:last-child {
     border-bottom: 0;
   }
-}
-
-/* general styling */
-
-body {
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.25;
 }
