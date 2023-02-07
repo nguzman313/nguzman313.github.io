@@ -105,6 +105,13 @@ body {
 
 h1 {text-align: center;}
 
+input[type=text] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
+}
+
 /* Database */
 
 table {
