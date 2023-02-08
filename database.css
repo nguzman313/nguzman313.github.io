@@ -112,6 +112,12 @@ input[type=text] {
   box-sizing: border-box;
 }
 
+.center-justified {
+  text-align: justify;
+  margin: auto;
+  max-width: 45em;
+}
+
 /* Database */
 
 table {
