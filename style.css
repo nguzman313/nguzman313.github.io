@@ -126,6 +126,12 @@ img {
 }
 
 
+a:link {color:#fffff1;}    /* unvisited link is white */
+a:visited {color:#fffff1;} /* visited link is white (reverse the color back to white) */
+a:hover {color:#FFFFFF;}   /* mouse over link (bright white when mouse over)*/
+a:active {color:#FFFFFF;}  /* selected link (bright white in the split second which you loading the page.)*/
+
+
 /* Gallery */ 
 
 /* The grid itself needs only 4 CSS declarations: */
