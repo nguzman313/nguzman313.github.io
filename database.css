@@ -150,6 +150,7 @@ table td {
 }
 
 table th {
+  background-color: #efefef;
   font-size: .85em;
   letter-spacing: .1em;
   text-transform: uppercase;
