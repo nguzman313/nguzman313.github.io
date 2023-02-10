@@ -133,14 +133,16 @@ table caption {
   margin: .5em 0 .75em;
 }
 
-table tr:nth-child(even) {
-  background-color: #efefef;
+table tr {
   padding: .35em;
 }
 
-table tr:nth-child(odd) {
+tbody tr:nth-child(even) {
+  background-color: #efefef;
+}
+
+tbody tr:nth-child(odd) {
   background-color: #fffff1;
-  padding: .35em;
 }
 
 table th,
