@@ -126,10 +126,10 @@ img {
 }
 
 
-a:link {color:#fffff1;}    /* unvisited link is white */
-a:visited {color:#fffff1;} /* visited link is white (reverse the color back to white) */
-a:hover {color:#FFFFFF;}   /* mouse over link (bright white when mouse over)*/
-a:active {color:#FFFFFF;}  /* selected link (bright white in the split second which you loading the page.)*/
+a:link {color:#111111;}    /* unvisited link is black */
+a:visited {color:#111111;} /* visited link is black (reverse the color back to black) */
+a:hover {color: purple;}   /* mouse over link (purple when mouse over)*/
+a:active {color: purple;}  /* selected link (purple in the split second which you loading the page.)*/
 
 
 /* Gallery */ 
