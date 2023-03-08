@@ -113,11 +113,6 @@ h2 {text-align: center;}
 
 h3 {text-align: center;}
 
-img {
- max-width: 40%;
- display: block;
- margin: .75em auto;
-}
 
 .center-justified {
   text-align: justify;
