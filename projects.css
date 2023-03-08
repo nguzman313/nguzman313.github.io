@@ -133,7 +133,7 @@ a:active {color:#FFFFFF;}  /* selected link (bright white in the split second wh
 
 .myGallery {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 100px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
