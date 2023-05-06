@@ -52,8 +52,16 @@
         <section>
             <h2 id="methods">Research Methods</h2>
                 <h3 id="usability">Usability Testing</h3>
+            
+                    <p>
+                        A sample of external users and fellow lab members were asked to carry out a set of tasks as part of a usability test.
+                        Participants were observed carrying out the tasks and various usability metrics such as success rate, error rate, and time per task were recorded.
+                        
+                    </p>
+            
                     <p>
                         <b>User Tasks</b>
+            
                         <ul>
                             <li>Navigate from the Prolific website to the web application.</li>
                             <li>Complete the series of surveys administered in the web application.</li>
@@ -65,6 +73,12 @@
         
                     <p>
                         <b>User Interviews</b>
+                        
+                            <p>
+                                Following completion of all tasks, users participated in semi-structured interviews to assess their pain points and subjective satisfaction.
+                                I was particularly interested in gaining feedback about the information architecture of the app and the instructions for the video-game task.
+                            </p>
+                        
                     </p>
         
                 <h3 id="playtest">Playtesting</h3>
@@ -87,16 +101,51 @@
                 <h3 id="generative">Generative Modeling of User Behavior</h3>
                     <p>
                         Using domain-specific knowledge from behavioral ecology and the neuroscience of decision-making, I constructed
-                        statistical models of user behavior to assess the ecological validity of the video-game task.
+                        Bayesian statistical models of user behavior which incorporated features of the video-game task as variables.
+                        The goal of these models was to develop a quantitative and causal understanding of how different features of the
+                        virtual environment impacted user's behavior. 
                     </p>
         </section>
             
         <section>    
             <h2 id="results">Results</h2>
+            
+                <p>
+                    The usability tests highlighted an opportunity to improve the accessibility of the app; for example, some icons in the app interface were only
+                    differentiated by color, which presented a problem for colorblind users. Later versions of the app ensured that all icons were differentiated by
+                    at least two types of information such as both color and shape. User interviews also provided important suggestions for improving the app's information architecture.
+                </p>
+            
+                <p>
+                    The playtests revealed a major bug in the app's codebase which could only be triggered by a specific sequence of user behavior.
+                    Since only a small minority of users exhibited this behavior and the cause of the bug could only be discovered by observing the
+                    users in action, it would have been difficult (if not impossible) to diagnose and fix the bug in the absence of playtests.
+                </p>
+            
+                <p>
+                    An essential aspect of the video-game task is that for the purpose of the decision-making, users need to believe that the AI-controlled
+                    characters are being controlled by fellow humans. To this end, the playtests were valuable in allowing me to iteratively design algorithms
+                    for the game's AI and test how human-like the AI's motions were perceived to be by users. The final algorithm provided a good match between
+                    computer and human behavior. 
+                </p>
+            
+                <p>
+                    Modeling user behavior allowed me to understand how different parameters of the app, such as the presence or absence of a visual feature
+                    or the the movement speed of a game character, impacted a user's behavioral strategy. These models enabled predictions about how alterations to
+                    different features of the app would change a user's behavior, allowing me to make more informed design decisions about how app features could be adjusted 
+                    to elicit more succcessful behavioral strategies from users. 
+                </p>
         </section>
         
         <section>
             <h2 id="takeaways">Takeaways</h2>
+            
+                <p>
+                    When features of an application can be mapped to variables in generative models of user behavior,
+                    those models can be used to predict how changes in features lead to changes in user behavior,
+                    instructing further iterations of app design. Playtests are not just useful for debugging, but also
+                    for designing new algorithms.
+                </p>
         </section>
        
     </article>
